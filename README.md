@@ -39,3 +39,11 @@ php artisan key:generate
 ```
 
 Set your Mysql credentials on .env file located under the root folder
+
+Then serve the project as you like
+
+```
+php artisan serve --port=80
+```
+
+will be hosted as 'http://localhost:80'
